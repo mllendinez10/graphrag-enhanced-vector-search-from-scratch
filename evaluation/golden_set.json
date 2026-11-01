@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "user_application": "channel for a trapeze supporting pipes ducts and cable trays",
+    "expected_result": ["MT-20", "MT-20 OC"]
+  },
+  {
+    "id": 2,
+    "user_application": "lightweight channel for a 3D pipe duct and cable tray frame",
+    "expected_result": ["MT-30 S", "MT-30", "MT-30 S OC", "MT-30 OC"]
+  },
+  {
+    "id": 3,
+    "user_application": "light floor support with short spans",
+    "expected_result": ["MT-30 S", "MT-30", "MT-30 S OC", "MT-30 OC"]
+  },
+  {
+    "id": 4,
+    "user_application": "wall support for small pipes ducts and cables",
+    "expected_result": ["MT-50 S", "MT-50", "MT-50 S OC", "MT-50 OC", "MT-60 S", "MT-60", "MT-60 S OC", "MT-60 OC"]
+  },
+  {
+    "id": 5,
+    "user_application": "channel for data center hot and cold aisle containment",
+    "expected_result": ["MT-50 U"]
+  },
+  {
+    "id": 6,
+    "user_application": "trapeze channel with heavy pipes mounted on both sides",
+    "expected_result": ["MT-50D", "MT-50D S", "MT-50D U", "MT-60D", "MT-60D OC", "MT-60D S"]
+  },
+  {
+    "id": 7,
+    "user_application": "wall mounted support for larger pipes",
+    "expected_result": ["MT-70 S OC", "MT-70 OC", "MT-70 S US OC", "MT-70 US OC"]
+  },
+  {
+    "id": 8,
+    "user_application": "wall support for heavy industrial piping",
+    "expected_result": ["MT-80 S OC", "MT-80 OC", "MT-90 S OC", "MT-90 OC", "MT-90 S US OC", "MT-90 US OC"]
+  },
+  {
+    "id": 9,
+    "user_application": "support for very heavy industrial pipes",
+    "expected_result": ["MT-100S OC", "MT-100 OC"]
+  },
+  {
+    "id": 10,
+    "user_application": "one support structure for pipes cable trays and air ducts",
+    "expected_result": ["MT-90H OC", "MT-90H S OC"]
+  },
+  {
+    "id": 11,
+    "user_application": "channels for dry and indoor application",
+    "expected_result": ["MT-20", "MT-30 S", "MT-30", "MT-50 S", "MT-50", "MT-50 U", "MT-60 S", "MT-60", "MT-30D", "MT-30D S", "MT-40D S", "MT-40D", "MT-50D", "MT-50D S", "MT-50D U", "MT-60D", "MT-60D S"]
+  },
+  {
+    "id": 12,
+    "user_application": "90 degree connector between channels or girders",
+    "expected_result": ["MT-C-L1", "MT-C-L1 OC", "MT-C-L2", "MT-C-L2 OC"]
+  },
+  {
+    "id": 13,
+    "user_application": "connector for a lightweight 2D support frame",
+    "expected_result": ["MT-C-L1", "MT-C-L1 OC", "MT-C-Q1 FL", "MT-C-Q1 FL OC"]
+  },
+  {
+    "id": 14,
+    "user_application": "connector to make an L shape with MT channels",
+    "expected_result": ["MT-C-LL1", "MT-C-LL1 OC", "MT-C-LL1 FL", "MT-C-LL1 FL OC", "MT-C-LL2", "MT-C-LL2 OC", "MT-C-LL2 FL", "MT-C-LL2 FL OC"]
+  },
+  {
+    "id": 15,
+    "user_application": "connector to join two MT channels together",
+    "expected_result": ["MT-CT-T", "MT-CT-T OC"]
+  },
+  {
+    "id": 16,
+    "user_application": "connector to attach a horizontal channel to either side of a vertical channel",
+    "expected_result": ["MT-C-T/1", "MT-C-T/1 OC"]
+  },
+  {
+    "id": 17,
+    "user_application": "connector to join four channels together",
+    "expected_result": ["MT-C-T 3D/3", "MT-C-T 3D/3 OC"]
+  },
+  {
+    "id": 18,
+    "user_application": "connector to make a T joint with two or three channels",
+    "expected_result": ["MT-C-T/2", "MT-C-T/2 OC", "MT-C-T/2 FL", "MT-C-T/2 FL OC"]
+  },
+  {
+    "id": 19,
+    "user_application": "connector for a frame exposed to loads in multiple directions",
+    "expected_result": ["MT-C-GS OC"]
+  },
+  {
+    "id": 20,
+    "user_application": "fastener for attaching hardware to an MT channel",
+    "expected_result": ["MT-TL M10", "MT-TL M10 OC"]
+  },
+  {
+    "id": 21,
+    "user_application": "connector for a U frame or crossbeam structure",
+    "expected_result": ["MT-FL", "MT-FL OC"]
+  },
+  {
+    "id": 22,
+    "user_application": "connectors for corrosive environments",
+    "expected_result": ["MT-C-L1 OC", "MT-C-Q1 FL OC", "MT-C-L2 OC", "MT-C-L2E FL OC", "MT-C-LL1 OC", "MT-C-LL1 FL OC", "MT-CT-T OC", "MT-C-T/1 OC", "MT-C-T 3D/3 OC", "MT-C-LL2 OC", "MT-C-LL2 FL OC", "MT-C-T/2 OC", "MT-C-T/2 FL OC", "MT-C-GS OC", "MT-TL M10 OC", "MT-TFB OC", "MT-FL OC"]
+  }
+]
