@@ -1,0 +1,7 @@
+python-dotenv
+pandas
+openpyxl
+neo4j
+sentence-transformers
+ollama
+streamlit
