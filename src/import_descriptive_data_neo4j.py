@@ -28,7 +28,8 @@ MATCH (channel:Channel {item_number: $item_number})
 SET channel:Product
 SET channel.long_description = $long_description,
     channel.features = $features,
-    channel.applications = $applications
+    channel.applications = $applications,
+    channel.product_type = $product_type
 """
 
 CONNECTOR_QUERY = """
@@ -36,7 +37,8 @@ MATCH (connector:Connector {item_number: $item_number})
 SET connector:Product
 SET connector.long_description = $long_description,
     connector.features = $features,
-    connector.applications = $applications
+    connector.applications = $applications,
+    connector.product_type = $product_type
 """
 
 
@@ -67,6 +69,7 @@ def import_channels(driver, table):
                 "long_description": row["Long description"],
                 "features": features,
                 "applications": applications,
+                "product_type": row["Product type"],
             },
             database_=os.environ["NEO4J_DATABASE"],
         )
@@ -95,6 +98,7 @@ def import_connectors(driver, table):
                 "long_description": row["Long description"],
                 "features": features,
                 "applications": applications,
+                "product_type": row["Product type"],
             },
             database_=os.environ["NEO4J_DATABASE"],
         )

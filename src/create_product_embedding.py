@@ -30,7 +30,8 @@ RETURN product.item_number AS item_number,
        product.designation AS designation,
        product.long_description AS long_description,
        product.applications AS applications,
-       product.features AS features
+       product.features AS features,
+       product.product_type AS product_type
 """
 
 # Match each product by item number and save its embedding.
@@ -88,6 +89,7 @@ def create_product_embeddings():
             features = " ".join(product["features"] or [])
 
             text = "\n".join([
+                f"Product type: {product['product_type']}",
                 product["designation"] or "",
                 product["long_description"] or "",
                 f"Applications: {applications}",
