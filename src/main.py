@@ -3,14 +3,15 @@ Run the graphrag enhanced vector search pipeline by connecting the individual pr
 """
 
 from search_products import search_products
+from retrieve_technical_data import retrieve_technical_data
 
 question = input("Describe your application: ").strip()
 
 products = search_products(question)
+technical_data = retrieve_technical_data(products)
 
-for product in products:
-    print(
-        f"{product['item_number']} | "
-        f"{product['designation']} | "
-        f"Score: {product['score']:.3f}"
-    )
+for result in technical_data:
+    print(result)
+    print()
+    
+    
